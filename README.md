@@ -1,7 +1,5 @@
 # Logical Information Model for Java
 
----------
-
 Refer to: 
 
 [Theory of Logical Information Model & Logical Information Network / 《逻辑信息模型与逻辑信息网络》](https://github.com/jhjiang/lim_lin)
