@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="4">
+        <description>All soldiers who want to be generals are not cowards. Some soldiers are cowards. Therefore some soldiers don't want to be generals.</description>
+        <judged-statement-group id="16" type="judged-statement-group"/>
+        <condition-group id="15" type="condition-group"/>
+    </argument>
+    <judged-statement id="5" type="proposition">
+        <description>All soldiers who want to be generals are not cowards.</description>
+        <condition-group id="12" type="condition-group"/>
+    </judged-statement>
+    <judged-statement id="6" type="proposition">
+        <description>Some soldiers are cowards.</description>
+        <condition-group id="13" type="condition-group"/>
+    </judged-statement>
+    <judged-statement id="7" type="proposition">
+        <description>Some soldiers don't want to be generals.</description>
+        <condition-group id="14" type="condition-group"/>
+    </judged-statement>
+    <concept id="8">
+        <description>all</description>
+    </concept>
+    <concept id="9">
+        <description>some</description>
+    </concept>
+    <condition id="10" type="quantifiers-condition">
+        <itx-attributes>
+            <item key="quantifiers-type" value="UNIVERSAL"/>
+        </itx-attributes>
+        <description>all</description>
+        <description-element id="8" type="concept"/>
+    </condition>
+    <condition id="11" type="quantifiers-condition">
+        <itx-attributes>
+            <item key="quantifiers-type" value="PARTICULAR"/>
+        </itx-attributes>
+        <description>some</description>
+        <description-element id="9" type="concept"/>
+    </condition>
+    <condition id="12" type="condition-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="quantifiers-condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="13" type="condition-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="quantifiers-condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="14" type="condition-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="quantifiers-condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="15" type="condition-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="quantifiers-condition"/>
+            <item key="group_11" id="11" type="quantifiers-condition"/>
+        </itx-elements>
+    </condition>
+    <judged-statement id="16" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="proposition"/>
+            <item key="group_7" id="7" type="proposition"/>
+            <item key="group_6" id="6" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+</lim-elements>

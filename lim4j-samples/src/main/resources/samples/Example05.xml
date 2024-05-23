@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <judged-statement id="4" type="definition">
+        <itx-elements>
+            <item key="definiens" id="7" type="concept"/>
+            <item key="connective-of-definition" id="6" type="concept"/>
+            <item key="definiendum" id="5" type="concept"/>
+        </itx-elements>
+        <description>Bird is a kind of warm-blooded vertebrate with feathers.</description>
+    </judged-statement>
+    <concept id="5">
+        <description>bird</description>
+    </concept>
+    <concept id="6">
+        <description>is (be)</description>
+    </concept>
+    <concept id="7">
+        <description>a kind of warm-blooded vertebrate with feathers</description>
+    </concept>
+</lim-elements>

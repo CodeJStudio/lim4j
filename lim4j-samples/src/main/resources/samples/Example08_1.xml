@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <judged-statement id="4" type="proposition">
+        <description>The total amount of domestic oil consumption in this year has increased 10% from last year.</description>
+        <condition-group id="12" type="condition-group"/>
+    </judged-statement>
+    <concept id="5">
+        <description>in this year</description>
+    </concept>
+    <concept id="6">
+        <description>from last year</description>
+    </concept>
+    <concept id="7">
+        <description>domestic</description>
+    </concept>
+    <condition id="8">
+        <description>in this year</description>
+        <description-element id="5" type="concept"/>
+    </condition>
+    <condition id="9">
+        <description>from last year</description>
+        <description-element id="6" type="concept"/>
+    </condition>
+    <condition id="10">
+        <description>domestic</description>
+        <description-element id="7" type="concept"/>
+    </condition>
+    <condition id="11" type="condition-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="condition"/>
+            <item key="group_9" id="9" type="condition"/>
+            <item key="group_8" id="8" type="condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="12" type="condition-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="condition-group"/>
+        </itx-elements>
+    </condition>
+</lim-elements>

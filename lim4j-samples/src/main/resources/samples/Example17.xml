@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="4">
+        <relation-group id="25" type="relation-group"/>
+        <description>At standard atmospheric pressure, when the temperature drops to 0 ℃, water will gradually condense, so then water will go from liquid to solid.</description>
+        <sub-information-element-group id="19" type="information-element-group"/>
+        <causality-relation id="33" type="causality-relation"/>
+        <judged-statement-group id="20" type="judged-statement-group"/>
+        <attribute-group id="23" type="attribute-group"/>
+    </argument>
+    <argument id="5">
+        <relation-group id="42" type="relation-group"/>
+        <description>Because water will gradually condense when it is at standard atmospheric pressure and its temperature drops to 0 ℃, water will go from liquid to solid.</description>
+        <sub-information-element-group id="36" type="information-element-group"/>
+        <causality-relation id="50" type="causality-relation"/>
+        <judged-statement-group id="37" type="judged-statement-group"/>
+        <condition-group id="53" type="condition-group"/>
+        <attribute-group id="40" type="attribute-group"/>
+    </argument>
+    <statement id="6">
+        <description>At standard atmospheric pressure</description>
+    </statement>
+    <statement id="7">
+        <description>the temperature drops to 0 ℃</description>
+    </statement>
+    <statement id="8">
+        <description>water will gradually condense</description>
+    </statement>
+    <statement id="9">
+        <description>water will go from liquid to solid</description>
+    </statement>
+    <judged-statement id="10" type="proposition">
+        <description>at standard atmospheric pressure, when the temperature drops to 0 ℃, water will gradually condense</description>
+        <condition-group id="17" type="condition-group"/>
+    </judged-statement>
+    <judged-statement id="11" type="proposition">
+        <description>water will gradually condense</description>
+    </judged-statement>
+    <judged-statement id="12" type="proposition">
+        <description>water will go from liquid to solid</description>
+        <condition-group id="18" type="condition-group"/>
+    </judged-statement>
+    <condition id="13">
+        <description>At standard atmospheric pressure</description>
+        <description-element id="6" type="statement"/>
+    </condition>
+    <condition id="14">
+        <description>the temperature drops to 0 ℃</description>
+        <description-element id="7" type="statement"/>
+    </condition>
+    <condition implicit="true" id="15">
+        <description>At standard atmospheric pressure</description>
+        <description-element id="13" type="condition"/>
+    </condition>
+    <condition implicit="true" id="16">
+        <description>the temperature drops to 0 ℃</description>
+        <description-element id="14" type="condition"/>
+    </condition>
+    <condition id="17" type="condition-group">
+        <itx-elements>
+            <item key="group_13" id="13" type="condition"/>
+            <item key="group_14" id="14" type="condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="18" type="condition-group">
+        <itx-elements>
+            <item key="group_15" id="15" type="condition"/>
+            <item key="group_16" id="16" type="condition"/>
+        </itx-elements>
+    </condition>
+    <information-element id="19" type="information-element-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="statement"/>
+            <item key="group_8" id="8" type="statement"/>
+            <item key="group_7" id="7" type="statement"/>
+            <item key="group_6" id="6" type="statement"/>
+        </itx-elements>
+    </information-element>
+    <judged-statement id="20" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="proposition"/>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute key="evidence" id="21">
+        <relation-group id="26" type="relation-group"/>
+        <value id="10" type="proposition"/>
+        <value-group id="22" type="generic-element-group"/>
+    </attribute>
+    <element id="22" type="generic-element-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="proposition"/>
+        </itx-elements>
+    </element>
+    <attribute id="23" type="attribute-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="attribute"/>
+            <item key="group_27" id="27" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="24" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="21" type="attribute"/>
+            <item key="master" id="4" type="argument"/>
+        </itx-elements>
+        <primary id="4" type="argument"/>
+        <secondary id="21" type="attribute"/>
+    </relation>
+    <relation id="25" type="relation-group">
+        <itx-elements>
+            <item key="group_54" id="54" type="equivalence-relation"/>
+            <item key="group_29" id="29" type="affiliation-relation"/>
+            <item key="group_24" id="24" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="26" type="relation-group">
+        <itx-elements>
+            <item key="group_24" id="24" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="27">
+        <relation-group id="30" type="relation-group"/>
+        <value id="12" type="proposition"/>
+        <value-group id="28" type="generic-element-group"/>
+    </attribute>
+    <element id="28" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="29" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="27" type="attribute"/>
+            <item key="master" id="4" type="argument"/>
+        </itx-elements>
+        <primary id="4" type="argument"/>
+        <secondary id="27" type="attribute"/>
+    </relation>
+    <relation id="30" type="relation-group">
+        <itx-elements>
+            <item key="group_29" id="29" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="31" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="proposition"/>
+        </itx-elements>
+        <relation-group id="34" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="32" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+        <relation-group id="35" type="relation-group"/>
+    </judged-statement>
+    <relation id="33" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="32" type="judged-statement-group"/>
+            <item key="cause" id="31" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="31" type="judged-statement-group"/>
+        <secondary id="32" type="judged-statement-group"/>
+    </relation>
+    <relation id="34" type="relation-group">
+        <itx-elements>
+            <item key="group_33" id="33" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="35" type="relation-group">
+        <itx-elements>
+            <item key="group_33" id="33" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <information-element id="36" type="information-element-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="statement"/>
+            <item key="group_8" id="8" type="statement"/>
+            <item key="group_7" id="7" type="statement"/>
+            <item key="group_6" id="6" type="statement"/>
+        </itx-elements>
+    </information-element>
+    <judged-statement id="37" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="proposition"/>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute key="evidence" id="38">
+        <relation-group id="43" type="relation-group"/>
+        <value id="11" type="proposition"/>
+        <value-group id="39" type="generic-element-group"/>
+    </attribute>
+    <element id="39" type="generic-element-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="proposition"/>
+        </itx-elements>
+    </element>
+    <attribute id="40" type="attribute-group">
+        <itx-elements>
+            <item key="group_38" id="38" type="attribute"/>
+            <item key="group_44" id="44" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="41" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="38" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="38" type="attribute"/>
+    </relation>
+    <relation id="42" type="relation-group">
+        <itx-elements>
+            <item key="group_54" id="54" type="equivalence-relation"/>
+            <item key="group_41" id="41" type="affiliation-relation"/>
+            <item key="group_46" id="46" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="43" type="relation-group">
+        <itx-elements>
+            <item key="group_41" id="41" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="44">
+        <relation-group id="47" type="relation-group"/>
+        <value id="12" type="proposition"/>
+        <value-group id="45" type="generic-element-group"/>
+    </attribute>
+    <element id="45" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="46" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="44" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="44" type="attribute"/>
+    </relation>
+    <relation id="47" type="relation-group">
+        <itx-elements>
+            <item key="group_46" id="46" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="48" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="proposition"/>
+        </itx-elements>
+        <relation-group id="51" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="49" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+        <relation-group id="52" type="relation-group"/>
+    </judged-statement>
+    <relation id="50" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="49" type="judged-statement-group"/>
+            <item key="cause" id="48" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="48" type="judged-statement-group"/>
+        <secondary id="49" type="judged-statement-group"/>
+    </relation>
+    <relation id="51" type="relation-group">
+        <itx-elements>
+            <item key="group_50" id="50" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="52" type="relation-group">
+        <itx-elements>
+            <item key="group_50" id="50" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="53" type="condition-group">
+        <itx-elements>
+            <item key="group_13" id="13" type="condition"/>
+            <item key="group_14" id="14" type="condition"/>
+        </itx-elements>
+    </condition>
+    <relation id="54" type="equivalence-relation">
+        <primary id="4" type="argument"/>
+        <secondary id="5" type="argument"/>
+    </relation>
+</lim-elements>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="4">
+        <relation-group id="10" type="relation-group"/>
+        <description>All soldiers who want to be generals are not cowards. Some soldiers are cowards. Therefore some soldiers don't want to be generals.</description>
+        <validity id="5" type="validity"/>
+        <attribute-group id="8" type="attribute-group"/>
+    </argument>
+    <logic-value value="1.0" id="5" type="validity">
+        <description>VALID</description>
+    </logic-value>
+    <attribute key="validity" id="6">
+        <relation-group id="11" type="relation-group"/>
+        <value id="5" type="validity"/>
+        <value-group id="7" type="generic-element-group"/>
+    </attribute>
+    <element id="7" type="generic-element-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="validity"/>
+        </itx-elements>
+    </element>
+    <attribute id="8" type="attribute-group">
+        <itx-elements>
+            <item key="group_6" id="6" type="attribute"/>
+            <item key="group_13" id="13" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="9" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="6" type="attribute"/>
+            <item key="master" id="4" type="argument"/>
+        </itx-elements>
+        <primary id="4" type="argument"/>
+        <secondary id="6" type="attribute"/>
+    </relation>
+    <relation id="10" type="relation-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="affiliation-relation"/>
+            <item key="group_15" id="15" type="affiliation-relation"/>
+            <item key="group_56" id="56" type="equivalence-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="11" type="relation-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="12" type="proposition">
+        <description>This is a syllogism in the form of 'no P is M (or all P is not M), some S is M, so some S is not P'.</description>
+    </judged-statement>
+    <attribute key="default" id="13" type="default-attribute">
+        <relation-group id="16" type="relation-group"/>
+        <value id="12" type="proposition"/>
+        <value-group id="14" type="generic-element-group"/>
+    </attribute>
+    <element id="14" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="15" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="13" type="default-attribute"/>
+            <item key="master" id="4" type="argument"/>
+        </itx-elements>
+        <primary id="4" type="argument"/>
+        <secondary id="13" type="default-attribute"/>
+    </relation>
+    <relation id="16" type="relation-group">
+        <itx-elements>
+            <item key="group_15" id="15" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="17" type="proposition">
+        <relation-group id="26" type="relation-group"/>
+        <description>All soldiers who want to be generals are not cowards.</description>
+        <sub-element-positions>
+            <item key="17,18" value="46"/>
+            <item key="45,6" value="49"/>
+            <item key="4,7" value="43"/>
+        </sub-element-positions>
+        <concept-group id="50" type="concept-group"/>
+        <attribute-group id="24" type="attribute-group"/>
+        <truth id="21" type="truth"/>
+    </judged-statement>
+    <judged-statement id="18" type="proposition">
+        <relation-group id="33" type="relation-group"/>
+        <description>Some soldiers are cowards.</description>
+        <sub-element-positions>
+            <item key="5,7" value="43"/>
+            <item key="18,6" value="49"/>
+        </sub-element-positions>
+        <concept-group id="51" type="concept-group"/>
+        <attribute-group id="31" type="attribute-group"/>
+        <truth id="28" type="truth"/>
+    </judged-statement>
+    <judged-statement id="19" type="proposition">
+        <relation-group id="40" type="relation-group"/>
+        <description>Some soldiers don't want to be generals.</description>
+        <sub-element-positions>
+            <item key="5,7" value="43"/>
+            <item key="20,18" value="46"/>
+        </sub-element-positions>
+        <concept-group id="52" type="concept-group"/>
+        <attribute-group id="38" type="attribute-group"/>
+        <truth id="35" type="truth"/>
+    </judged-statement>
+    <judged-statement id="20" type="proposition">
+        <relation-group id="55" type="relation-group"/>
+        <description>Some soldiers are not the soldiers who want to be generals.</description>
+    </judged-statement>
+    <logic-value value="1.0" id="21" type="truth">
+        <description>TRUE</description>
+    </logic-value>
+    <attribute key="truth" id="22">
+        <relation-group id="27" type="relation-group"/>
+        <value id="21" type="truth"/>
+        <value-group id="23" type="generic-element-group"/>
+    </attribute>
+    <element id="23" type="generic-element-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="truth"/>
+        </itx-elements>
+    </element>
+    <attribute id="24" type="attribute-group">
+        <itx-elements>
+            <item key="group_22" id="22" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="25" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="22" type="attribute"/>
+            <item key="master" id="17" type="proposition"/>
+        </itx-elements>
+        <primary id="17" type="proposition"/>
+        <secondary id="22" type="attribute"/>
+    </relation>
+    <relation id="26" type="relation-group">
+        <itx-elements>
+            <item key="group_25" id="25" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="27" type="relation-group">
+        <itx-elements>
+            <item key="group_25" id="25" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <logic-value value="1.0" id="28" type="truth">
+        <description>TRUE</description>
+    </logic-value>
+    <attribute key="truth" id="29">
+        <relation-group id="34" type="relation-group"/>
+        <value id="28" type="truth"/>
+        <value-group id="30" type="generic-element-group"/>
+    </attribute>
+    <element id="30" type="generic-element-group">
+        <itx-elements>
+            <item key="group_28" id="28" type="truth"/>
+        </itx-elements>
+    </element>
+    <attribute id="31" type="attribute-group">
+        <itx-elements>
+            <item key="group_29" id="29" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="32" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="29" type="attribute"/>
+            <item key="master" id="18" type="proposition"/>
+        </itx-elements>
+        <primary id="18" type="proposition"/>
+        <secondary id="29" type="attribute"/>
+    </relation>
+    <relation id="33" type="relation-group">
+        <itx-elements>
+            <item key="group_32" id="32" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="34" type="relation-group">
+        <itx-elements>
+            <item key="group_32" id="32" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <logic-value value="1.0" id="35" type="truth">
+        <description>TRUE</description>
+    </logic-value>
+    <attribute key="truth" id="36">
+        <relation-group id="41" type="relation-group"/>
+        <value id="35" type="truth"/>
+        <value-group id="37" type="generic-element-group"/>
+    </attribute>
+    <element id="37" type="generic-element-group">
+        <itx-elements>
+            <item key="group_35" id="35" type="truth"/>
+        </itx-elements>
+    </element>
+    <attribute id="38" type="attribute-group">
+        <itx-elements>
+            <item key="group_36" id="36" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="39" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="36" type="attribute"/>
+            <item key="master" id="19" type="proposition"/>
+        </itx-elements>
+        <primary id="19" type="proposition"/>
+        <secondary id="36" type="attribute"/>
+    </relation>
+    <relation id="40" type="relation-group">
+        <itx-elements>
+            <item key="group_54" id="54" type="equivalence-relation"/>
+            <item key="group_39" id="39" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="41" type="relation-group">
+        <itx-elements>
+            <item key="group_39" id="39" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="42" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="proposition"/>
+            <item key="group_17" id="17" type="proposition"/>
+            <item key="group_18" id="18" type="proposition"/>
+        </itx-elements>
+        <relation-group id="57" type="relation-group"/>
+    </judged-statement>
+    <concept id="43">
+        <description>soldier</description>
+    </concept>
+    <concept id="44">
+        <description>all</description>
+    </concept>
+    <concept id="45">
+        <description>no / not</description>
+    </concept>
+    <concept id="46">
+        <description>want to be general</description>
+        <sub-element-positions>
+            <item key="11,7" value="47"/>
+        </sub-element-positions>
+        <sub-concept-group id="53" type="concept-group"/>
+    </concept>
+    <concept id="47">
+        <description>general</description>
+    </concept>
+    <concept id="48">
+        <description>some</description>
+    </concept>
+    <concept id="49">
+        <description>coward</description>
+    </concept>
+    <concept id="50" type="concept-group">
+        <itx-elements>
+            <item key="group_43" id="43" type="concept"/>
+            <item key="group_49" id="49" type="concept"/>
+            <item key="group_46" id="46" type="concept"/>
+            <item key="group_44" id="44" type="concept"/>
+            <item key="group_45" id="45" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="51" type="concept-group">
+        <itx-elements>
+            <item key="group_43" id="43" type="concept"/>
+            <item key="group_48" id="48" type="concept"/>
+            <item key="group_49" id="49" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="52" type="concept-group">
+        <itx-elements>
+            <item key="group_43" id="43" type="concept"/>
+            <item key="group_48" id="48" type="concept"/>
+            <item key="group_46" id="46" type="concept"/>
+            <item key="group_45" id="45" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="53" type="concept-group">
+        <itx-elements>
+            <item key="group_47" id="47" type="concept"/>
+        </itx-elements>
+    </concept>
+    <relation id="54" type="equivalence-relation">
+        <primary id="19" type="proposition"/>
+        <secondary id="20" type="proposition"/>
+    </relation>
+    <relation id="55" type="relation-group">
+        <itx-elements>
+            <item key="group_54" id="54" type="equivalence-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="56" type="equivalence-relation">
+        <primary id="4" type="argument"/>
+        <secondary id="42" type="judged-statement-group"/>
+    </relation>
+    <relation id="57" type="relation-group">
+        <itx-elements>
+            <item key="group_56" id="56" type="equivalence-relation"/>
+        </itx-elements>
+    </relation>
+</lim-elements>

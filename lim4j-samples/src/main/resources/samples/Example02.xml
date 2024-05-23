@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="4">
+        <description>① Because the greatest mitochondrial variations occurred in African people, ② scientists concluded that they had the longest evolutionary history, ③ indicating a probable African origin for modern humans.</description>
+        <sub-argument-group id="42" type="argument-group"/>
+    </argument>
+    <argument id="5">
+        <relation-group id="15" type="relation-group"/>
+        <description>① Because the greatest mitochondrial variations occurred in African people, ② scientists concluded that they had the longest evolutionary history,</description>
+        <causality-relation id="23" type="causality-relation"/>
+        <judged-statement-group id="10" type="judged-statement-group"/>
+        <attribute-group id="13" type="attribute-group"/>
+    </argument>
+    <argument id="6">
+        <relation-group id="31" type="relation-group"/>
+        <description>② (scientists concluded that )they had the longest evolutionary history, ③ indicating a probable African origin for modern humans.</description>
+        <causality-relation id="39" type="causality-relation"/>
+        <judged-statement-group id="26" type="judged-statement-group"/>
+        <attribute-group id="29" type="attribute-group"/>
+    </argument>
+    <judged-statement id="7" type="proposition">
+        <description>the greatest mitochondrial variations occurred in African people,</description>
+    </judged-statement>
+    <judged-statement id="8" type="proposition">
+        <description>scientists concluded that they had the longest evolutionary history,</description>
+    </judged-statement>
+    <judged-statement id="9" type="proposition">
+        <description>(there is )a probable African origin for modern humans.</description>
+    </judged-statement>
+    <judged-statement id="10" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+            <item key="group_7" id="7" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute key="evidence" id="11">
+        <relation-group id="16" type="relation-group"/>
+        <value id="7" type="proposition"/>
+        <value-group id="12" type="generic-element-group"/>
+    </attribute>
+    <element id="12" type="generic-element-group">
+        <itx-elements>
+            <item key="group_7" id="7" type="proposition"/>
+        </itx-elements>
+    </element>
+    <attribute id="13" type="attribute-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="attribute"/>
+            <item key="group_11" id="11" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="14" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="11" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="11" type="attribute"/>
+    </relation>
+    <relation id="15" type="relation-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="affiliation-relation"/>
+            <item key="group_14" id="14" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="16" type="relation-group">
+        <itx-elements>
+            <item key="group_14" id="14" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="17">
+        <relation-group id="20" type="relation-group"/>
+        <value id="8" type="proposition"/>
+        <value-group id="18" type="generic-element-group"/>
+    </attribute>
+    <element id="18" type="generic-element-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="19" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="17" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="17" type="attribute"/>
+    </relation>
+    <relation id="20" type="relation-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="21" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_7" id="7" type="proposition"/>
+        </itx-elements>
+        <relation-group id="24" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="22" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+        </itx-elements>
+        <relation-group id="25" type="relation-group"/>
+    </judged-statement>
+    <relation id="23" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="22" type="judged-statement-group"/>
+            <item key="cause" id="21" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="21" type="judged-statement-group"/>
+        <secondary id="22" type="judged-statement-group"/>
+    </relation>
+    <relation id="24" type="relation-group">
+        <itx-elements>
+            <item key="group_23" id="23" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="25" type="relation-group">
+        <itx-elements>
+            <item key="group_23" id="23" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="26" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+            <item key="group_8" id="8" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute key="evidence" id="27">
+        <relation-group id="32" type="relation-group"/>
+        <value id="8" type="proposition"/>
+        <value-group id="28" type="generic-element-group"/>
+    </attribute>
+    <element id="28" type="generic-element-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+        </itx-elements>
+    </element>
+    <attribute id="29" type="attribute-group">
+        <itx-elements>
+            <item key="group_27" id="27" type="attribute"/>
+            <item key="group_33" id="33" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="30" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="27" type="attribute"/>
+            <item key="master" id="6" type="argument"/>
+        </itx-elements>
+        <primary id="6" type="argument"/>
+        <secondary id="27" type="attribute"/>
+    </relation>
+    <relation id="31" type="relation-group">
+        <itx-elements>
+            <item key="group_30" id="30" type="affiliation-relation"/>
+            <item key="group_35" id="35" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="32" type="relation-group">
+        <itx-elements>
+            <item key="group_30" id="30" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="33">
+        <relation-group id="36" type="relation-group"/>
+        <value id="9" type="proposition"/>
+        <value-group id="34" type="generic-element-group"/>
+    </attribute>
+    <element id="34" type="generic-element-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="35" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="33" type="attribute"/>
+            <item key="master" id="6" type="argument"/>
+        </itx-elements>
+        <primary id="6" type="argument"/>
+        <secondary id="33" type="attribute"/>
+    </relation>
+    <relation id="36" type="relation-group">
+        <itx-elements>
+            <item key="group_35" id="35" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="37" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+        </itx-elements>
+        <relation-group id="40" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="38" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+        </itx-elements>
+        <relation-group id="41" type="relation-group"/>
+    </judged-statement>
+    <relation id="39" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="38" type="judged-statement-group"/>
+            <item key="cause" id="37" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="37" type="judged-statement-group"/>
+        <secondary id="38" type="judged-statement-group"/>
+    </relation>
+    <relation id="40" type="relation-group">
+        <itx-elements>
+            <item key="group_39" id="39" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="41" type="relation-group">
+        <itx-elements>
+            <item key="group_39" id="39" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <argument id="42" type="argument-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="argument"/>
+            <item key="group_6" id="6" type="argument"/>
+        </itx-elements>
+    </argument>
+</lim-elements>

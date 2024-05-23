@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <information-section id="4">
+        <description>Salviati: "... How far may one go without geometry for a good philosophical exploration of the natural world?"
+Sagredo: "... (And it must be admitted that) trying to deal with physical problems without geometry is attempting the impossible."</description>
+        <sub-information-element-group id="16" type="information-element-group"/>
+    </information-section>
+    <judged-statement id="5" type="hypothetical-proposition">
+        <description>One may go far without geometry for a good philosophical exploration of the natural world.</description>
+    </judged-statement>
+    <doubt id="6">
+        <proposer id="12" type="proposer"/>
+        <description>How far may one go without geometry for a good philosophical exploration of the natural world?</description>
+        <doubt-type>HOW_FAR</doubt-type>
+        <target id="5" type="hypothetical-proposition"/>
+        <explanation-group id="9" type="explanation-group"/>
+    </doubt>
+    <judged-statement id="7" type="hypothetical-proposition">
+        <description>Trying to deal with physical problems without geometry is attempting the impossible.</description>
+    </judged-statement>
+    <explanation id="8">
+        <proposer id="13" type="proposer"/>
+        <target-doubt id="6" type="doubt"/>
+        <response id="7" type="hypothetical-proposition"/>
+    </explanation>
+    <explanation id="9" type="explanation-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="explanation"/>
+        </itx-elements>
+    </explanation>
+    <entity name="Salviati" id="10">
+        <proposed-element-group id="14" type="ownable-information-element-group"/>
+    </entity>
+    <entity name="Sagredo" id="11">
+        <proposed-element-group id="15" type="ownable-information-element-group"/>
+    </entity>
+    <role id="12" type="proposer">
+        <entity id="10" type="entity"/>
+    </role>
+    <role id="13" type="proposer">
+        <entity id="11" type="entity"/>
+    </role>
+    <ownable-information-element id="14" type="ownable-information-element-group">
+        <itx-elements>
+            <item key="group_6" id="6" type="doubt"/>
+        </itx-elements>
+    </ownable-information-element>
+    <ownable-information-element id="15" type="ownable-information-element-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="explanation"/>
+        </itx-elements>
+    </ownable-information-element>
+    <information-element id="16" type="information-element-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="explanation"/>
+            <item key="group_6" id="6" type="doubt"/>
+        </itx-elements>
+    </information-element>
+</lim-elements>

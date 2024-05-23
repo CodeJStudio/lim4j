@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="4">
+        <relation-group id="137" type="relation-group"/>
+        <description>∵ax²+bx+c=0, ∴x=(-b±√(b²-4ac))/2a</description>
+        <validity id="150" type="validity"/>
+        <causality-relation id="145" type="causality-relation"/>
+        <sub-argument-group id="149" type="argument-group"/>
+        <judged-statement-group id="132" type="judged-statement-group"/>
+        <condition-group id="148" type="condition-group"/>
+        <attribute-group id="135" type="attribute-group"/>
+    </argument>
+    <argument id="5">
+        <relation-group id="27" type="relation-group"/>
+        <description>∵ax²+bx+c=0, ∴x²+(b/a)x+(c/a)=0</description>
+        <validity id="39" type="validity"/>
+        <causality-relation id="35" type="causality-relation"/>
+        <judged-statement-group id="22" type="judged-statement-group"/>
+        <condition-group id="38" type="condition-group"/>
+        <attribute-group id="25" type="attribute-group"/>
+    </argument>
+    <argument id="6">
+        <relation-group id="49" type="relation-group"/>
+        <description>∵x²+(b/a)x+(c/a)=0, ∴x²+2(b/2a)x+(b/2a)²=-(c/a)+(b/2a)²</description>
+        <validity id="61" type="validity"/>
+        <causality-relation id="57" type="causality-relation"/>
+        <judged-statement-group id="44" type="judged-statement-group"/>
+        <condition-group id="60" type="condition-group"/>
+        <attribute-group id="47" type="attribute-group"/>
+    </argument>
+    <argument id="7">
+        <relation-group id="71" type="relation-group"/>
+        <description>∵x²+2(b/2a)x+(b/2a)²=-(c/a)+(b/2a)², ∴(x+(b/2a))²=(b²-4ac)/4a²</description>
+        <validity id="83" type="validity"/>
+        <causality-relation id="79" type="causality-relation"/>
+        <judged-statement-group id="66" type="judged-statement-group"/>
+        <condition-group id="82" type="condition-group"/>
+        <attribute-group id="69" type="attribute-group"/>
+    </argument>
+    <argument id="8">
+        <relation-group id="93" type="relation-group"/>
+        <description>∵(x+(b/2a))²=(b²-4ac)/4a², ∴x+(b/2a)=√(b²-4ac)/2a</description>
+        <validity id="105" type="validity"/>
+        <causality-relation id="101" type="causality-relation"/>
+        <judged-statement-group id="88" type="judged-statement-group"/>
+        <condition-group id="104" type="condition-group"/>
+        <attribute-group id="91" type="attribute-group"/>
+    </argument>
+    <argument id="9">
+        <relation-group id="115" type="relation-group"/>
+        <description>∵x+(b/2a)=√(b²-4ac)/2a, ∴x=(-b±√(b²-4ac))/2a</description>
+        <validity id="127" type="validity"/>
+        <causality-relation id="123" type="causality-relation"/>
+        <judged-statement-group id="110" type="judged-statement-group"/>
+        <condition-group id="126" type="condition-group"/>
+        <attribute-group id="113" type="attribute-group"/>
+    </argument>
+    <judged-statement id="10" type="definition">
+        <description>ax²+bx+c=0</description>
+    </judged-statement>
+    <judged-statement id="11" type="definition">
+        <description>x=(-b±√(b²-4ac))/2a</description>
+    </judged-statement>
+    <judged-statement id="12" type="definition">
+        <description>x²+(b/a)x+(c/a)=0</description>
+    </judged-statement>
+    <judged-statement id="13" type="definition">
+        <description>x²+2(b/2a)x+(b/2a)²=-(c/a)+(b/2a)²</description>
+    </judged-statement>
+    <judged-statement id="14" type="definition">
+        <description>(x+(b/2a))²=(b²-4ac)/4a²</description>
+    </judged-statement>
+    <judged-statement id="15" type="definition">
+        <description>x+(b/2a)=±√(b²-4ac)/2a</description>
+    </judged-statement>
+    <judged-statement id="16" type="hypothetical-proposition">
+        <description>If ac=bc, and c≠0, then a=b. (cancellation law of multiplication)</description>
+    </judged-statement>
+    <judged-statement id="17" type="hypothetical-proposition">
+        <description>If a+c=b+c, then a=b. (cancellation law of addition)</description>
+    </judged-statement>
+    <judged-statement id="18" type="definition">
+        <description>x²+2kx+k²=(x+k)², k∈R</description>
+    </judged-statement>
+    <judged-statement id="19" type="hypothetical-proposition">
+        <description>If a²=b², then a=±b.</description>
+    </judged-statement>
+    <statement id="20">
+        <description>a,b,c∈R, a≠0</description>
+    </statement>
+    <condition id="21">
+        <description>a,b,c∈R, a≠0</description>
+        <description-element id="20" type="statement"/>
+    </condition>
+    <judged-statement id="22" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="definition"/>
+            <item key="group_16" id="16" type="hypothetical-proposition"/>
+            <item key="group_12" id="12" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute compatible="true" key="evidence" id="23">
+        <relation-group id="28" type="relation-group"/>
+        <value-group id="24" type="generic-element-group"/>
+    </attribute>
+    <element id="24" type="generic-element-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="definition"/>
+            <item key="group_16" id="16" type="hypothetical-proposition"/>
+        </itx-elements>
+    </element>
+    <attribute id="25" type="attribute-group">
+        <itx-elements>
+            <item key="group_40" id="40" type="attribute"/>
+            <item key="group_29" id="29" type="attribute"/>
+            <item key="group_23" id="23" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="26" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="23" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="23" type="attribute"/>
+    </relation>
+    <relation id="27" type="relation-group">
+        <itx-elements>
+            <item key="group_31" id="31" type="affiliation-relation"/>
+            <item key="group_42" id="42" type="affiliation-relation"/>
+            <item key="group_26" id="26" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="28" type="relation-group">
+        <itx-elements>
+            <item key="group_26" id="26" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="29">
+        <relation-group id="32" type="relation-group"/>
+        <value id="12" type="definition"/>
+        <value-group id="30" type="generic-element-group"/>
+    </attribute>
+    <element id="30" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="definition"/>
+        </itx-elements>
+    </element>
+    <relation id="31" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="29" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="29" type="attribute"/>
+    </relation>
+    <relation id="32" type="relation-group">
+        <itx-elements>
+            <item key="group_31" id="31" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="33" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="definition"/>
+            <item key="group_16" id="16" type="hypothetical-proposition"/>
+        </itx-elements>
+        <relation-group id="36" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="34" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="definition"/>
+        </itx-elements>
+        <relation-group id="37" type="relation-group"/>
+    </judged-statement>
+    <relation id="35" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="34" type="judged-statement-group"/>
+            <item key="cause" id="33" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="33" type="judged-statement-group"/>
+        <secondary id="34" type="judged-statement-group"/>
+    </relation>
+    <relation id="36" type="relation-group">
+        <itx-elements>
+            <item key="group_35" id="35" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="37" type="relation-group">
+        <itx-elements>
+            <item key="group_35" id="35" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="38" type="condition-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="condition"/>
+        </itx-elements>
+    </condition>
+    <logic-value value="1.0" id="39" type="validity">
+        <description>VALID</description>
+    </logic-value>
+    <attribute key="validity" id="40">
+        <relation-group id="43" type="relation-group"/>
+        <value id="39" type="validity"/>
+        <value-group id="41" type="generic-element-group"/>
+    </attribute>
+    <element id="41" type="generic-element-group">
+        <itx-elements>
+            <item key="group_39" id="39" type="validity"/>
+        </itx-elements>
+    </element>
+    <relation id="42" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="40" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="40" type="attribute"/>
+    </relation>
+    <relation id="43" type="relation-group">
+        <itx-elements>
+            <item key="group_42" id="42" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="44" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="hypothetical-proposition"/>
+            <item key="group_13" id="13" type="definition"/>
+            <item key="group_12" id="12" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute compatible="true" key="evidence" id="45">
+        <relation-group id="50" type="relation-group"/>
+        <value-group id="46" type="generic-element-group"/>
+    </attribute>
+    <element id="46" type="generic-element-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="hypothetical-proposition"/>
+            <item key="group_12" id="12" type="definition"/>
+        </itx-elements>
+    </element>
+    <attribute id="47" type="attribute-group">
+        <itx-elements>
+            <item key="group_51" id="51" type="attribute"/>
+            <item key="group_62" id="62" type="attribute"/>
+            <item key="group_45" id="45" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="48" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="45" type="attribute"/>
+            <item key="master" id="6" type="argument"/>
+        </itx-elements>
+        <primary id="6" type="argument"/>
+        <secondary id="45" type="attribute"/>
+    </relation>
+    <relation id="49" type="relation-group">
+        <itx-elements>
+            <item key="group_53" id="53" type="affiliation-relation"/>
+            <item key="group_64" id="64" type="affiliation-relation"/>
+            <item key="group_48" id="48" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="50" type="relation-group">
+        <itx-elements>
+            <item key="group_48" id="48" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="51">
+        <relation-group id="54" type="relation-group"/>
+        <value id="13" type="definition"/>
+        <value-group id="52" type="generic-element-group"/>
+    </attribute>
+    <element id="52" type="generic-element-group">
+        <itx-elements>
+            <item key="group_13" id="13" type="definition"/>
+        </itx-elements>
+    </element>
+    <relation id="53" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="51" type="attribute"/>
+            <item key="master" id="6" type="argument"/>
+        </itx-elements>
+        <primary id="6" type="argument"/>
+        <secondary id="51" type="attribute"/>
+    </relation>
+    <relation id="54" type="relation-group">
+        <itx-elements>
+            <item key="group_53" id="53" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="55" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="hypothetical-proposition"/>
+            <item key="group_12" id="12" type="definition"/>
+        </itx-elements>
+        <relation-group id="58" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="56" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_13" id="13" type="definition"/>
+        </itx-elements>
+        <relation-group id="59" type="relation-group"/>
+    </judged-statement>
+    <relation id="57" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="56" type="judged-statement-group"/>
+            <item key="cause" id="55" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="55" type="judged-statement-group"/>
+        <secondary id="56" type="judged-statement-group"/>
+    </relation>
+    <relation id="58" type="relation-group">
+        <itx-elements>
+            <item key="group_57" id="57" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="59" type="relation-group">
+        <itx-elements>
+            <item key="group_57" id="57" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="60" type="condition-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="condition"/>
+        </itx-elements>
+    </condition>
+    <logic-value value="1.0" id="61" type="validity">
+        <description>VALID</description>
+    </logic-value>
+    <attribute key="validity" id="62">
+        <relation-group id="65" type="relation-group"/>
+        <value id="61" type="validity"/>
+        <value-group id="63" type="generic-element-group"/>
+    </attribute>
+    <element id="63" type="generic-element-group">
+        <itx-elements>
+            <item key="group_61" id="61" type="validity"/>
+        </itx-elements>
+    </element>
+    <relation id="64" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="62" type="attribute"/>
+            <item key="master" id="6" type="argument"/>
+        </itx-elements>
+        <primary id="6" type="argument"/>
+        <secondary id="62" type="attribute"/>
+    </relation>
+    <relation id="65" type="relation-group">
+        <itx-elements>
+            <item key="group_64" id="64" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="66" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_18" id="18" type="definition"/>
+            <item key="group_13" id="13" type="definition"/>
+            <item key="group_14" id="14" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute compatible="true" key="evidence" id="67">
+        <relation-group id="72" type="relation-group"/>
+        <value-group id="68" type="generic-element-group"/>
+    </attribute>
+    <element id="68" type="generic-element-group">
+        <itx-elements>
+            <item key="group_18" id="18" type="definition"/>
+            <item key="group_13" id="13" type="definition"/>
+        </itx-elements>
+    </element>
+    <attribute id="69" type="attribute-group">
+        <itx-elements>
+            <item key="group_73" id="73" type="attribute"/>
+            <item key="group_84" id="84" type="attribute"/>
+            <item key="group_67" id="67" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="70" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="67" type="attribute"/>
+            <item key="master" id="7" type="argument"/>
+        </itx-elements>
+        <primary id="7" type="argument"/>
+        <secondary id="67" type="attribute"/>
+    </relation>
+    <relation id="71" type="relation-group">
+        <itx-elements>
+            <item key="group_75" id="75" type="affiliation-relation"/>
+            <item key="group_86" id="86" type="affiliation-relation"/>
+            <item key="group_70" id="70" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="72" type="relation-group">
+        <itx-elements>
+            <item key="group_70" id="70" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="73">
+        <relation-group id="76" type="relation-group"/>
+        <value id="14" type="definition"/>
+        <value-group id="74" type="generic-element-group"/>
+    </attribute>
+    <element id="74" type="generic-element-group">
+        <itx-elements>
+            <item key="group_14" id="14" type="definition"/>
+        </itx-elements>
+    </element>
+    <relation id="75" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="73" type="attribute"/>
+            <item key="master" id="7" type="argument"/>
+        </itx-elements>
+        <primary id="7" type="argument"/>
+        <secondary id="73" type="attribute"/>
+    </relation>
+    <relation id="76" type="relation-group">
+        <itx-elements>
+            <item key="group_75" id="75" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="77" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_18" id="18" type="definition"/>
+            <item key="group_13" id="13" type="definition"/>
+        </itx-elements>
+        <relation-group id="80" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="78" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_14" id="14" type="definition"/>
+        </itx-elements>
+        <relation-group id="81" type="relation-group"/>
+    </judged-statement>
+    <relation id="79" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="78" type="judged-statement-group"/>
+            <item key="cause" id="77" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="77" type="judged-statement-group"/>
+        <secondary id="78" type="judged-statement-group"/>
+    </relation>
+    <relation id="80" type="relation-group">
+        <itx-elements>
+            <item key="group_79" id="79" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="81" type="relation-group">
+        <itx-elements>
+            <item key="group_79" id="79" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="82" type="condition-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="condition"/>
+        </itx-elements>
+    </condition>
+    <logic-value value="1.0" id="83" type="validity">
+        <description>VALID</description>
+    </logic-value>
+    <attribute key="validity" id="84">
+        <relation-group id="87" type="relation-group"/>
+        <value id="83" type="validity"/>
+        <value-group id="85" type="generic-element-group"/>
+    </attribute>
+    <element id="85" type="generic-element-group">
+        <itx-elements>
+            <item key="group_83" id="83" type="validity"/>
+        </itx-elements>
+    </element>
+    <relation id="86" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="84" type="attribute"/>
+            <item key="master" id="7" type="argument"/>
+        </itx-elements>
+        <primary id="7" type="argument"/>
+        <secondary id="84" type="attribute"/>
+    </relation>
+    <relation id="87" type="relation-group">
+        <itx-elements>
+            <item key="group_86" id="86" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="88" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="hypothetical-proposition"/>
+            <item key="group_15" id="15" type="definition"/>
+            <item key="group_14" id="14" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute compatible="true" key="evidence" id="89">
+        <relation-group id="94" type="relation-group"/>
+        <value-group id="90" type="generic-element-group"/>
+    </attribute>
+    <element id="90" type="generic-element-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="hypothetical-proposition"/>
+            <item key="group_14" id="14" type="definition"/>
+        </itx-elements>
+    </element>
+    <attribute id="91" type="attribute-group">
+        <itx-elements>
+            <item key="group_95" id="95" type="attribute"/>
+            <item key="group_106" id="106" type="attribute"/>
+            <item key="group_89" id="89" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="92" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="89" type="attribute"/>
+            <item key="master" id="8" type="argument"/>
+        </itx-elements>
+        <primary id="8" type="argument"/>
+        <secondary id="89" type="attribute"/>
+    </relation>
+    <relation id="93" type="relation-group">
+        <itx-elements>
+            <item key="group_97" id="97" type="affiliation-relation"/>
+            <item key="group_108" id="108" type="affiliation-relation"/>
+            <item key="group_92" id="92" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="94" type="relation-group">
+        <itx-elements>
+            <item key="group_92" id="92" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="95">
+        <relation-group id="98" type="relation-group"/>
+        <value id="15" type="definition"/>
+        <value-group id="96" type="generic-element-group"/>
+    </attribute>
+    <element id="96" type="generic-element-group">
+        <itx-elements>
+            <item key="group_15" id="15" type="definition"/>
+        </itx-elements>
+    </element>
+    <relation id="97" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="95" type="attribute"/>
+            <item key="master" id="8" type="argument"/>
+        </itx-elements>
+        <primary id="8" type="argument"/>
+        <secondary id="95" type="attribute"/>
+    </relation>
+    <relation id="98" type="relation-group">
+        <itx-elements>
+            <item key="group_97" id="97" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="99" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="hypothetical-proposition"/>
+            <item key="group_14" id="14" type="definition"/>
+        </itx-elements>
+        <relation-group id="102" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="100" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_15" id="15" type="definition"/>
+        </itx-elements>
+        <relation-group id="103" type="relation-group"/>
+    </judged-statement>
+    <relation id="101" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="100" type="judged-statement-group"/>
+            <item key="cause" id="99" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="99" type="judged-statement-group"/>
+        <secondary id="100" type="judged-statement-group"/>
+    </relation>
+    <relation id="102" type="relation-group">
+        <itx-elements>
+            <item key="group_101" id="101" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="103" type="relation-group">
+        <itx-elements>
+            <item key="group_101" id="101" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="104" type="condition-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="condition"/>
+        </itx-elements>
+    </condition>
+    <logic-value value="1.0" id="105" type="validity">
+        <description>VALID</description>
+    </logic-value>
+    <attribute key="validity" id="106">
+        <relation-group id="109" type="relation-group"/>
+        <value id="105" type="validity"/>
+        <value-group id="107" type="generic-element-group"/>
+    </attribute>
+    <element id="107" type="generic-element-group">
+        <itx-elements>
+            <item key="group_105" id="105" type="validity"/>
+        </itx-elements>
+    </element>
+    <relation id="108" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="106" type="attribute"/>
+            <item key="master" id="8" type="argument"/>
+        </itx-elements>
+        <primary id="8" type="argument"/>
+        <secondary id="106" type="attribute"/>
+    </relation>
+    <relation id="109" type="relation-group">
+        <itx-elements>
+            <item key="group_108" id="108" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="110" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="hypothetical-proposition"/>
+            <item key="group_15" id="15" type="definition"/>
+            <item key="group_11" id="11" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute compatible="true" key="evidence" id="111">
+        <relation-group id="116" type="relation-group"/>
+        <value-group id="112" type="generic-element-group"/>
+    </attribute>
+    <element id="112" type="generic-element-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="hypothetical-proposition"/>
+            <item key="group_15" id="15" type="definition"/>
+        </itx-elements>
+    </element>
+    <attribute id="113" type="attribute-group">
+        <itx-elements>
+            <item key="group_117" id="117" type="attribute"/>
+            <item key="group_128" id="128" type="attribute"/>
+            <item key="group_111" id="111" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="114" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="111" type="attribute"/>
+            <item key="master" id="9" type="argument"/>
+        </itx-elements>
+        <primary id="9" type="argument"/>
+        <secondary id="111" type="attribute"/>
+    </relation>
+    <relation id="115" type="relation-group">
+        <itx-elements>
+            <item key="group_130" id="130" type="affiliation-relation"/>
+            <item key="group_119" id="119" type="affiliation-relation"/>
+            <item key="group_114" id="114" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="116" type="relation-group">
+        <itx-elements>
+            <item key="group_114" id="114" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="117">
+        <relation-group id="120" type="relation-group"/>
+        <value id="11" type="definition"/>
+        <value-group id="118" type="generic-element-group"/>
+    </attribute>
+    <element id="118" type="generic-element-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="definition"/>
+        </itx-elements>
+    </element>
+    <relation id="119" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="117" type="attribute"/>
+            <item key="master" id="9" type="argument"/>
+        </itx-elements>
+        <primary id="9" type="argument"/>
+        <secondary id="117" type="attribute"/>
+    </relation>
+    <relation id="120" type="relation-group">
+        <itx-elements>
+            <item key="group_119" id="119" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="121" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="hypothetical-proposition"/>
+            <item key="group_15" id="15" type="definition"/>
+        </itx-elements>
+        <relation-group id="124" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="122" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="definition"/>
+        </itx-elements>
+        <relation-group id="125" type="relation-group"/>
+    </judged-statement>
+    <relation id="123" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="122" type="judged-statement-group"/>
+            <item key="cause" id="121" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="121" type="judged-statement-group"/>
+        <secondary id="122" type="judged-statement-group"/>
+    </relation>
+    <relation id="124" type="relation-group">
+        <itx-elements>
+            <item key="group_123" id="123" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="125" type="relation-group">
+        <itx-elements>
+            <item key="group_123" id="123" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="126" type="condition-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="condition"/>
+        </itx-elements>
+    </condition>
+    <logic-value value="1.0" id="127" type="validity">
+        <description>VALID</description>
+    </logic-value>
+    <attribute key="validity" id="128">
+        <relation-group id="131" type="relation-group"/>
+        <value id="127" type="validity"/>
+        <value-group id="129" type="generic-element-group"/>
+    </attribute>
+    <element id="129" type="generic-element-group">
+        <itx-elements>
+            <item key="group_127" id="127" type="validity"/>
+        </itx-elements>
+    </element>
+    <relation id="130" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="128" type="attribute"/>
+            <item key="master" id="9" type="argument"/>
+        </itx-elements>
+        <primary id="9" type="argument"/>
+        <secondary id="128" type="attribute"/>
+    </relation>
+    <relation id="131" type="relation-group">
+        <itx-elements>
+            <item key="group_130" id="130" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="132" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="definition"/>
+            <item key="group_11" id="11" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute key="evidence" id="133">
+        <relation-group id="138" type="relation-group"/>
+        <value id="10" type="definition"/>
+        <value-group id="134" type="generic-element-group"/>
+    </attribute>
+    <element id="134" type="generic-element-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="definition"/>
+        </itx-elements>
+    </element>
+    <attribute id="135" type="attribute-group">
+        <itx-elements>
+            <item key="group_151" id="151" type="attribute"/>
+            <item key="group_139" id="139" type="attribute"/>
+            <item key="group_133" id="133" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="136" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="133" type="attribute"/>
+            <item key="master" id="4" type="argument"/>
+        </itx-elements>
+        <primary id="4" type="argument"/>
+        <secondary id="133" type="attribute"/>
+    </relation>
+    <relation id="137" type="relation-group">
+        <itx-elements>
+            <item key="group_153" id="153" type="affiliation-relation"/>
+            <item key="group_141" id="141" type="affiliation-relation"/>
+            <item key="group_136" id="136" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="138" type="relation-group">
+        <itx-elements>
+            <item key="group_136" id="136" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="139">
+        <relation-group id="142" type="relation-group"/>
+        <value id="11" type="definition"/>
+        <value-group id="140" type="generic-element-group"/>
+    </attribute>
+    <element id="140" type="generic-element-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="definition"/>
+        </itx-elements>
+    </element>
+    <relation id="141" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="139" type="attribute"/>
+            <item key="master" id="4" type="argument"/>
+        </itx-elements>
+        <primary id="4" type="argument"/>
+        <secondary id="139" type="attribute"/>
+    </relation>
+    <relation id="142" type="relation-group">
+        <itx-elements>
+            <item key="group_141" id="141" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="143" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="definition"/>
+        </itx-elements>
+        <relation-group id="146" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="144" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_11" id="11" type="definition"/>
+        </itx-elements>
+        <relation-group id="147" type="relation-group"/>
+    </judged-statement>
+    <relation id="145" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="144" type="judged-statement-group"/>
+            <item key="cause" id="143" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="143" type="judged-statement-group"/>
+        <secondary id="144" type="judged-statement-group"/>
+    </relation>
+    <relation id="146" type="relation-group">
+        <itx-elements>
+            <item key="group_145" id="145" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="147" type="relation-group">
+        <itx-elements>
+            <item key="group_145" id="145" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="148" type="condition-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="condition"/>
+        </itx-elements>
+    </condition>
+    <argument id="149" type="argument-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="argument"/>
+            <item key="group_8" id="8" type="argument"/>
+            <item key="group_5" id="5" type="argument"/>
+            <item key="group_7" id="7" type="argument"/>
+            <item key="group_6" id="6" type="argument"/>
+        </itx-elements>
+    </argument>
+    <logic-value value="1.0" id="150" type="validity">
+        <description>VALID</description>
+    </logic-value>
+    <attribute key="validity" id="151">
+        <relation-group id="154" type="relation-group"/>
+        <value id="150" type="validity"/>
+        <value-group id="152" type="generic-element-group"/>
+    </attribute>
+    <element id="152" type="generic-element-group">
+        <itx-elements>
+            <item key="group_150" id="150" type="validity"/>
+        </itx-elements>
+    </element>
+    <relation id="153" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="151" type="attribute"/>
+            <item key="master" id="4" type="argument"/>
+        </itx-elements>
+        <primary id="4" type="argument"/>
+        <secondary id="151" type="attribute"/>
+    </relation>
+    <relation id="154" type="relation-group">
+        <itx-elements>
+            <item key="group_153" id="153" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+</lim-elements>

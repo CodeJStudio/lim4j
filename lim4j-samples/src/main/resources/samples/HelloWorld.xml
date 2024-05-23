@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <statement id="4">
+        <description>Hello, world!</description>
+        <concept-group id="17" type="concept-group"/>
+    </statement>
+    <concept id="5">
+        <description>hello</description>
+        <sub-element-positions>
+            <item key="0,1" value="10"/>
+            <item key="1,1" value="11"/>
+            <item key="2,1" value="12"/>
+            <item key="3,1" value="12"/>
+            <item key="4,1" value="13"/>
+        </sub-element-positions>
+        <sub-concept-group id="18" type="concept-group"/>
+    </concept>
+    <concept id="6">
+        <description>,</description>
+    </concept>
+    <concept id="7">
+        <description>world</description>
+        <sub-element-positions>
+            <item key="10,1" value="12"/>
+            <item key="11,1" value="16"/>
+            <item key="7,1" value="14"/>
+            <item key="8,1" value="13"/>
+            <item key="9,1" value="15"/>
+        </sub-element-positions>
+        <sub-concept-group id="19" type="concept-group"/>
+    </concept>
+    <concept id="8">
+        <description>!</description>
+    </concept>
+    <concept id="9">
+        <relation-group id="25" type="relation-group"/>
+        <description>H</description>
+        <attribute-group id="23" type="attribute-group"/>
+    </concept>
+    <concept id="10">
+        <relation-group id="29" type="relation-group"/>
+        <description>h</description>
+    </concept>
+    <concept id="11">
+        <description>e</description>
+    </concept>
+    <concept id="12">
+        <description>l</description>
+    </concept>
+    <concept id="13">
+        <description>o</description>
+    </concept>
+    <concept id="14">
+        <description>w</description>
+    </concept>
+    <concept id="15">
+        <description>r</description>
+    </concept>
+    <concept id="16">
+        <description>d</description>
+    </concept>
+    <concept id="17" type="concept-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="concept"/>
+            <item key="group_8" id="8" type="concept"/>
+            <item key="group_5" id="5" type="concept"/>
+            <item key="group_7" id="7" type="concept"/>
+            <item key="group_6" id="6" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="18" type="concept-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="concept"/>
+            <item key="group_13" id="13" type="concept"/>
+            <item key="group_11" id="11" type="concept"/>
+            <item key="group_12" id="12" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="19" type="concept-group">
+        <itx-elements>
+            <item key="group_15" id="15" type="concept"/>
+            <item key="group_16" id="16" type="concept"/>
+            <item key="group_13" id="13" type="concept"/>
+            <item key="group_14" id="14" type="concept"/>
+            <item key="group_12" id="12" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="20">
+        <description>Uppercase</description>
+    </concept>
+    <attribute compatible="true" key="case" id="21">
+        <relation-group id="26" type="relation-group"/>
+        <value-group id="22" type="generic-element-group"/>
+    </attribute>
+    <element id="22" type="generic-element-group">
+        <itx-elements>
+            <item key="group_20" id="20" type="concept"/>
+            <item key="group_27" id="27" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="23" type="attribute-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="24" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="21" type="attribute"/>
+            <item key="master" id="9" type="concept"/>
+        </itx-elements>
+        <primary id="9" type="concept"/>
+        <secondary id="21" type="attribute"/>
+    </relation>
+    <relation id="25" type="relation-group">
+        <itx-elements>
+            <item key="group_28" id="28" type="equivalence-relation"/>
+            <item key="group_24" id="24" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="26" type="relation-group">
+        <itx-elements>
+            <item key="group_24" id="24" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <concept id="27">
+        <description>大写</description>
+    </concept>
+    <relation id="28" type="equivalence-relation">
+        <primary id="9" type="concept"/>
+        <secondary id="10" type="concept"/>
+    </relation>
+    <relation id="29" type="relation-group">
+        <itx-elements>
+            <item key="group_28" id="28" type="equivalence-relation"/>
+        </itx-elements>
+    </relation>
+</lim-elements>

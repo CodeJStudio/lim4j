@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <information-section id="4">
+        <description>Einstein and Bohr were two giants in the field of quantum mechanics, and several academic debates between them had great influence in the history of science. As early as 1924, Bohr co-authored a paper entitled 'Über die Quantentheorie der Strahlung' (About the Quantum Theory of Radiation), which proposed a highly controversial point of view that energy and momentum need not be conserved in a single microscopic interaction process, but only in a statistical sense. In this regard, Einstein wrote in a letter to Born, another physicist: 'Bohr's ideas about radiation are very interesting. But ... I find it utterly unacceptable the idea that when an electron is irradiated by radiation, not only the moment of its jump, but also the direction in which it jumps, are chosen by its own free will.'</description>
+        <sub-information-element-group id="20" type="information-element-group"/>
+    </information-section>
+    <information-section id="5">
+        <proposer id="10" type="proposer"/>
+        <observer-group id="17" type="observer-group"/>
+        <description>@paper: 'Über die Quantentheorie der Strahlung'</description>
+        <sub-information-element-group id="19" type="information-element-group"/>
+    </information-section>
+    <information-section id="6">
+        <proposer id="11" type="proposer"/>
+        <description>Bohr's ideas about radiation are very interesting. But ... I find it utterly unacceptable the idea that when an electron is irradiated by radiation, not only the moment of its jump, but also the direction in which it jumps, are chosen by its own free will.</description>
+    </information-section>
+    <judged-statement id="7" type="proposition">
+        <description>Energy and momentum need not be conserved in a single microscopic interaction process, but only in a statistical sense.</description>
+    </judged-statement>
+    <entity name="Bohr" id="8">
+        <proposed-element-group id="16" type="ownable-information-element-group"/>
+    </entity>
+    <entity name="Einstein" id="9">
+        <proposed-element-group id="12" type="ownable-information-element-group"/>
+        <observed-element-group id="18" type="ownable-information-element-group"/>
+    </entity>
+    <role id="10" type="proposer">
+        <entity id="8" type="entity"/>
+    </role>
+    <role id="11" type="proposer">
+        <entity id="9" type="entity"/>
+    </role>
+    <ownable-information-element id="12" type="ownable-information-element-group">
+        <itx-elements>
+            <item key="group_6" id="6" type="information-section"/>
+        </itx-elements>
+    </ownable-information-element>
+    <comment id="13">
+        <element id="6" type="information-section"/>
+    </comment>
+    <role id="14" type="observer">
+        <entity id="9" type="entity"/>
+        <comment-group id="15" type="comment-group"/>
+    </role>
+    <comment id="15" type="comment-group">
+        <itx-elements>
+            <item key="group_13" id="13" type="comment"/>
+        </itx-elements>
+    </comment>
+    <ownable-information-element id="16" type="ownable-information-element-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="information-section"/>
+        </itx-elements>
+    </ownable-information-element>
+    <role id="17" type="observer-group">
+        <itx-elements>
+            <item key="group_14" id="14" type="observer"/>
+        </itx-elements>
+    </role>
+    <ownable-information-element id="18" type="ownable-information-element-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="information-section"/>
+        </itx-elements>
+    </ownable-information-element>
+    <information-element id="19" type="information-element-group">
+        <itx-elements>
+            <item key="group_7" id="7" type="proposition"/>
+        </itx-elements>
+    </information-element>
+    <information-element id="20" type="information-element-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="information-section"/>
+        </itx-elements>
+    </information-element>
+</lim-elements>

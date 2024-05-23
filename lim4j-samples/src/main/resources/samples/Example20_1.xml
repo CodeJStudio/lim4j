@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="4">
+        <relation-group id="10" type="relation-group"/>
+        <description>All mammals have lungs. All whales are mammals. Therefore all whales have lungs.</description>
+        <validity id="5" type="validity"/>
+        <attribute-group id="8" type="attribute-group"/>
+    </argument>
+    <logic-value value="1.0" id="5" type="validity">
+        <description>VALID</description>
+    </logic-value>
+    <attribute key="validity" id="6">
+        <relation-group id="11" type="relation-group"/>
+        <value id="5" type="validity"/>
+        <value-group id="7" type="generic-element-group"/>
+    </attribute>
+    <element id="7" type="generic-element-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="validity"/>
+        </itx-elements>
+    </element>
+    <attribute id="8" type="attribute-group">
+        <itx-elements>
+            <item key="group_6" id="6" type="attribute"/>
+            <item key="group_13" id="13" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="9" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="6" type="attribute"/>
+            <item key="master" id="4" type="argument"/>
+        </itx-elements>
+        <primary id="4" type="argument"/>
+        <secondary id="6" type="attribute"/>
+    </relation>
+    <relation id="10" type="relation-group">
+        <itx-elements>
+            <item key="group_53" id="53" type="equivalence-relation"/>
+            <item key="group_9" id="9" type="affiliation-relation"/>
+            <item key="group_15" id="15" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="11" type="relation-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="12" type="proposition">
+        <description>This is a syllogism in the form of 'all M is P, all S is M, so all S is P'.</description>
+    </judged-statement>
+    <attribute key="default" id="13" type="default-attribute">
+        <relation-group id="16" type="relation-group"/>
+        <value id="12" type="proposition"/>
+        <value-group id="14" type="generic-element-group"/>
+    </attribute>
+    <element id="14" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="15" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="13" type="default-attribute"/>
+            <item key="master" id="4" type="argument"/>
+        </itx-elements>
+        <primary id="4" type="argument"/>
+        <secondary id="13" type="default-attribute"/>
+    </relation>
+    <relation id="16" type="relation-group">
+        <itx-elements>
+            <item key="group_15" id="15" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="17" type="proposition">
+        <relation-group id="25" type="relation-group"/>
+        <description>All mammals have lungs.</description>
+        <sub-element-positions>
+            <item key="12,10" value="43"/>
+            <item key="0,3" value="42"/>
+            <item key="4,7" value="46"/>
+        </sub-element-positions>
+        <concept-group id="49" type="concept-group"/>
+        <attribute-group id="23" type="attribute-group"/>
+        <truth id="20" type="truth"/>
+    </judged-statement>
+    <judged-statement id="18" type="proposition">
+        <relation-group id="32" type="relation-group"/>
+        <description>All whales are mammals.</description>
+        <sub-element-positions>
+            <item key="11,3" value="48"/>
+            <item key="0,3" value="42"/>
+            <item key="15,7" value="46"/>
+            <item key="4,6" value="45"/>
+        </sub-element-positions>
+        <concept-group id="50" type="concept-group"/>
+        <attribute-group id="30" type="attribute-group"/>
+        <truth id="27" type="truth"/>
+    </judged-statement>
+    <judged-statement id="19" type="proposition">
+        <relation-group id="39" type="relation-group"/>
+        <description>All whales have lungs.</description>
+        <sub-element-positions>
+            <item key="11,10" value="43"/>
+            <item key="0,3" value="42"/>
+            <item key="4,6" value="45"/>
+        </sub-element-positions>
+        <concept-group id="51" type="concept-group"/>
+        <attribute-group id="37" type="attribute-group"/>
+        <truth id="34" type="truth"/>
+    </judged-statement>
+    <logic-value value="1.0" id="20" type="truth">
+        <description>TRUE</description>
+    </logic-value>
+    <attribute key="truth" id="21">
+        <relation-group id="26" type="relation-group"/>
+        <value id="20" type="truth"/>
+        <value-group id="22" type="generic-element-group"/>
+    </attribute>
+    <element id="22" type="generic-element-group">
+        <itx-elements>
+            <item key="group_20" id="20" type="truth"/>
+        </itx-elements>
+    </element>
+    <attribute id="23" type="attribute-group">
+        <itx-elements>
+            <item key="group_21" id="21" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="24" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="21" type="attribute"/>
+            <item key="master" id="17" type="proposition"/>
+        </itx-elements>
+        <primary id="17" type="proposition"/>
+        <secondary id="21" type="attribute"/>
+    </relation>
+    <relation id="25" type="relation-group">
+        <itx-elements>
+            <item key="group_24" id="24" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="26" type="relation-group">
+        <itx-elements>
+            <item key="group_24" id="24" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <logic-value value="1.0" id="27" type="truth">
+        <description>TRUE</description>
+    </logic-value>
+    <attribute key="truth" id="28">
+        <relation-group id="33" type="relation-group"/>
+        <value id="27" type="truth"/>
+        <value-group id="29" type="generic-element-group"/>
+    </attribute>
+    <element id="29" type="generic-element-group">
+        <itx-elements>
+            <item key="group_27" id="27" type="truth"/>
+        </itx-elements>
+    </element>
+    <attribute id="30" type="attribute-group">
+        <itx-elements>
+            <item key="group_28" id="28" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="31" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="28" type="attribute"/>
+            <item key="master" id="18" type="proposition"/>
+        </itx-elements>
+        <primary id="18" type="proposition"/>
+        <secondary id="28" type="attribute"/>
+    </relation>
+    <relation id="32" type="relation-group">
+        <itx-elements>
+            <item key="group_31" id="31" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="33" type="relation-group">
+        <itx-elements>
+            <item key="group_31" id="31" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <logic-value value="1.0" id="34" type="truth">
+        <description>TRUE</description>
+    </logic-value>
+    <attribute key="truth" id="35">
+        <relation-group id="40" type="relation-group"/>
+        <value id="34" type="truth"/>
+        <value-group id="36" type="generic-element-group"/>
+    </attribute>
+    <element id="36" type="generic-element-group">
+        <itx-elements>
+            <item key="group_34" id="34" type="truth"/>
+        </itx-elements>
+    </element>
+    <attribute id="37" type="attribute-group">
+        <itx-elements>
+            <item key="group_35" id="35" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="38" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="35" type="attribute"/>
+            <item key="master" id="19" type="proposition"/>
+        </itx-elements>
+        <primary id="19" type="proposition"/>
+        <secondary id="35" type="attribute"/>
+    </relation>
+    <relation id="39" type="relation-group">
+        <itx-elements>
+            <item key="group_38" id="38" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="40" type="relation-group">
+        <itx-elements>
+            <item key="group_38" id="38" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="41" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="proposition"/>
+            <item key="group_17" id="17" type="proposition"/>
+            <item key="group_18" id="18" type="proposition"/>
+        </itx-elements>
+        <relation-group id="54" type="relation-group"/>
+    </judged-statement>
+    <concept id="42">
+        <description>All</description>
+    </concept>
+    <concept id="43">
+        <description>have lungs</description>
+        <sub-element-positions>
+            <item key="0,4" value="47"/>
+            <item key="5,5" value="44"/>
+        </sub-element-positions>
+        <sub-concept-group id="52" type="concept-group"/>
+    </concept>
+    <concept id="44">
+        <description>lungs</description>
+    </concept>
+    <concept id="45">
+        <description>whales</description>
+    </concept>
+    <concept id="46">
+        <description>mammals</description>
+    </concept>
+    <concept id="47">
+        <description>have</description>
+    </concept>
+    <concept id="48">
+        <description>are</description>
+    </concept>
+    <concept id="49" type="concept-group">
+        <itx-elements>
+            <item key="group_42" id="42" type="concept"/>
+            <item key="group_43" id="43" type="concept"/>
+            <item key="group_46" id="46" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="50" type="concept-group">
+        <itx-elements>
+            <item key="group_42" id="42" type="concept"/>
+            <item key="group_48" id="48" type="concept"/>
+            <item key="group_46" id="46" type="concept"/>
+            <item key="group_45" id="45" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="51" type="concept-group">
+        <itx-elements>
+            <item key="group_42" id="42" type="concept"/>
+            <item key="group_43" id="43" type="concept"/>
+            <item key="group_45" id="45" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="52" type="concept-group">
+        <itx-elements>
+            <item key="group_47" id="47" type="concept"/>
+            <item key="group_44" id="44" type="concept"/>
+        </itx-elements>
+    </concept>
+    <relation id="53" type="equivalence-relation">
+        <primary id="4" type="argument"/>
+        <secondary id="41" type="judged-statement-group"/>
+    </relation>
+    <relation id="54" type="relation-group">
+        <itx-elements>
+            <item key="group_53" id="53" type="equivalence-relation"/>
+        </itx-elements>
+    </relation>
+</lim-elements>

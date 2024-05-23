@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <judged-statement id="4" type="definition">
+        <itx-elements>
+            <item key="definiens" id="9" type="concept"/>
+            <item key="definiendum" id="8" type="concept"/>
+        </itx-elements>
+        <description>Lion is a (kind of) Felidae animal.</description>
+    </judged-statement>
+    <judged-statement id="5" type="definition">
+        <itx-elements>
+            <item key="definiens" id="11" type="concept"/>
+            <item key="definiendum" id="10" type="concept"/>
+        </itx-elements>
+        <description>Lu Xun was a litterateur.</description>
+    </judged-statement>
+    <judged-statement id="6" type="definition">
+        <itx-elements>
+            <item key="definiens" id="13" type="concept"/>
+            <item key="definiendum" id="12" type="concept"/>
+        </itx-elements>
+        <description>A motor vehicle is a vehicle driven on the road and powered by the movement of machines.</description>
+    </judged-statement>
+    <judged-statement id="7" type="definition">
+        <itx-elements>
+            <item key="definiens" id="15" type="concept"/>
+            <item key="definiendum" id="14" type="concept"/>
+        </itx-elements>
+        <description>The first requirement for a planet in a celestial system is to orbit a star or stellar debris.</description>
+    </judged-statement>
+    <concept id="8">
+        <description>lion</description>
+    </concept>
+    <concept id="9">
+        <description>Felidae animal</description>
+    </concept>
+    <concept id="10">
+        <description>Lu Xun</description>
+        <condition-group id="30" type="condition-group"/>
+    </concept>
+    <concept id="11">
+        <description>litterateur</description>
+    </concept>
+    <concept id="12">
+        <description>motor vehicle</description>
+    </concept>
+    <concept id="13">
+        <description>vehicle driven on the road and powered by the movement of machines</description>
+        <sub-concept-group id="40" type="concept-group"/>
+    </concept>
+    <concept id="14">
+        <description>the first requirement for a planet</description>
+        <sub-concept-group id="41" type="concept-group"/>
+    </concept>
+    <concept id="15">
+        <description>to orbit a star or stellar debris</description>
+        <sub-concept-group id="42" type="concept-group"/>
+    </concept>
+    <concept id="16">
+        <description>vehicle</description>
+        <condition-group id="31" type="condition-group"/>
+    </concept>
+    <concept id="17">
+        <description>driven on the road</description>
+    </concept>
+    <concept id="18">
+        <description>powered by the movement of machines</description>
+    </concept>
+    <concept id="19" type="concept-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="concept"/>
+            <item key="group_18" id="18" type="concept"/>
+            <item key="group_16" id="16" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="20">
+        <description>the first requirement</description>
+    </concept>
+    <concept id="21">
+        <relation-group id="36" type="relation-group"/>
+        <description>planet</description>
+        <condition-group id="39" type="condition-group"/>
+        <attribute-group id="34" type="attribute-group"/>
+    </concept>
+    <concept id="22" type="concept-group">
+        <itx-elements>
+            <item key="group_20" id="20" type="concept"/>
+            <item key="group_21" id="21" type="concept"/>
+        </itx-elements>
+    </concept>
+    <concept id="23">
+        <description>orbit</description>
+    </concept>
+    <concept id="24">
+        <description>star</description>
+    </concept>
+    <concept id="25">
+        <description>stellar debris</description>
+    </concept>
+    <concept id="26" type="concept-group">
+        <itx-elements>
+            <item key="group_24" id="24" type="concept"/>
+            <item key="group_25" id="25" type="concept"/>
+            <item key="group_23" id="23" type="concept"/>
+        </itx-elements>
+    </concept>
+    <condition implicit="true" id="27" type="quantifiers-condition">
+        <itx-attributes>
+            <item key="quantifiers-type" value="SINGULAR"/>
+        </itx-attributes>
+    </condition>
+    <condition id="28">
+        <description>driven on the road</description>
+        <description-element id="17" type="concept"/>
+    </condition>
+    <condition id="29">
+        <description>powered by the movement of machines</description>
+        <description-element id="18" type="concept"/>
+    </condition>
+    <condition id="30" type="condition-group">
+        <itx-elements>
+            <item key="group_27" id="27" type="quantifiers-condition"/>
+        </itx-elements>
+    </condition>
+    <condition id="31" type="condition-group">
+        <itx-elements>
+            <item key="group_28" id="28" type="condition"/>
+            <item key="group_29" id="29" type="condition"/>
+        </itx-elements>
+    </condition>
+    <attribute key="default" id="32" type="default-attribute">
+        <relation-group id="37" type="relation-group"/>
+        <value id="20" type="concept"/>
+        <value-group id="33" type="generic-element-group"/>
+    </attribute>
+    <element id="33" type="generic-element-group">
+        <itx-elements>
+            <item key="group_20" id="20" type="concept"/>
+        </itx-elements>
+    </element>
+    <attribute id="34" type="attribute-group">
+        <itx-elements>
+            <item key="group_32" id="32" type="default-attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="35" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="32" type="default-attribute"/>
+            <item key="master" id="21" type="concept"/>
+        </itx-elements>
+        <primary id="21" type="concept"/>
+        <secondary id="32" type="default-attribute"/>
+    </relation>
+    <relation id="36" type="relation-group">
+        <itx-elements>
+            <item key="group_35" id="35" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="37" type="relation-group">
+        <itx-elements>
+            <item key="group_35" id="35" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="38" type="attribute-condition">
+        <itx-elements>
+            <item key="attribute" id="20" type="concept"/>
+        </itx-elements>
+        <description>the first requirement</description>
+        <description-element id="20" type="concept"/>
+    </condition>
+    <condition id="39" type="condition-group">
+        <itx-elements>
+            <item key="group_38" id="38" type="attribute-condition"/>
+        </itx-elements>
+    </condition>
+    <concept id="40" type="concept-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="concept-group"/>
+        </itx-elements>
+    </concept>
+    <concept id="41" type="concept-group">
+        <itx-elements>
+            <item key="group_22" id="22" type="concept-group"/>
+        </itx-elements>
+    </concept>
+    <concept id="42" type="concept-group">
+        <itx-elements>
+            <item key="group_26" id="26" type="concept-group"/>
+        </itx-elements>
+    </concept>
+</lim-elements>

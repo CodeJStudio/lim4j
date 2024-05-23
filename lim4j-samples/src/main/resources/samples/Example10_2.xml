@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="4" type="mixed-hypothetical-syllogism">
+        <itx-elements>
+            <item key="conclusion" id="9" type="proposition"/>
+            <item key="major-premise" id="5" type="hypothetical-proposition"/>
+            <item key="minor-premise" id="8" type="proposition"/>
+        </itx-elements>
+        <relation-group id="18" type="relation-group"/>
+        <description>③ If the second soldier tells the truth, then this is the gate of life. The second soldier tells the truth. Therefore, this is the gate of life.</description>
+        <causality-relation id="26" type="causality-relation"/>
+        <judged-statement-group id="13" type="judged-statement-group"/>
+        <condition-group id="29" type="condition-group"/>
+        <attribute-group id="16" type="attribute-group"/>
+    </argument>
+    <judged-statement id="5" type="hypothetical-proposition">
+        <itx-elements>
+            <item key="consequents" id="12" type="judged-statement-group"/>
+            <item key="antecedents" id="11" type="condition-group"/>
+        </itx-elements>
+        <description>If the second soldier tells the truth, then this is the gate of life.</description>
+    </judged-statement>
+    <statement id="6">
+        <description>the second soldier tells the truth</description>
+    </statement>
+    <judged-statement id="7" type="proposition">
+        <description>this is the gate of life</description>
+    </judged-statement>
+    <judged-statement id="8" type="proposition">
+        <description>the second soldier tells the truth</description>
+    </judged-statement>
+    <judged-statement id="9" type="proposition">
+        <description>This is the gate of life.</description>
+    </judged-statement>
+    <condition id="10" type="hypothetical-condition">
+        <itx-elements>
+            <item key="antecedent" id="6" type="statement"/>
+        </itx-elements>
+        <description>the second soldier tells the truth</description>
+        <description-element id="6" type="statement"/>
+    </condition>
+    <condition id="11" type="condition-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="hypothetical-condition"/>
+        </itx-elements>
+    </condition>
+    <judged-statement id="12" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_7" id="7" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <judged-statement id="13" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+            <item key="group_8" id="8" type="proposition"/>
+            <item key="group_5" id="5" type="hypothetical-proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute compatible="true" key="evidence" id="14">
+        <relation-group id="19" type="relation-group"/>
+        <value-group id="15" type="generic-element-group"/>
+    </attribute>
+    <element id="15" type="generic-element-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+            <item key="group_5" id="5" type="hypothetical-proposition"/>
+        </itx-elements>
+    </element>
+    <attribute id="16" type="attribute-group">
+        <itx-elements>
+            <item key="group_20" id="20" type="attribute"/>
+            <item key="group_14" id="14" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="17" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="14" type="attribute"/>
+            <item key="master" id="4" type="mixed-hypothetical-syllogism"/>
+        </itx-elements>
+        <primary id="4" type="mixed-hypothetical-syllogism"/>
+        <secondary id="14" type="attribute"/>
+    </relation>
+    <relation id="18" type="relation-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="affiliation-relation"/>
+            <item key="group_22" id="22" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="19" type="relation-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="20">
+        <relation-group id="23" type="relation-group"/>
+        <value id="9" type="proposition"/>
+        <value-group id="21" type="generic-element-group"/>
+    </attribute>
+    <element id="21" type="generic-element-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="22" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="20" type="attribute"/>
+            <item key="master" id="4" type="mixed-hypothetical-syllogism"/>
+        </itx-elements>
+        <primary id="4" type="mixed-hypothetical-syllogism"/>
+        <secondary id="20" type="attribute"/>
+    </relation>
+    <relation id="23" type="relation-group">
+        <itx-elements>
+            <item key="group_22" id="22" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="24" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+            <item key="group_5" id="5" type="hypothetical-proposition"/>
+        </itx-elements>
+        <relation-group id="27" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="25" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+        </itx-elements>
+        <relation-group id="28" type="relation-group"/>
+    </judged-statement>
+    <relation id="26" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="25" type="judged-statement-group"/>
+            <item key="cause" id="24" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="24" type="judged-statement-group"/>
+        <secondary id="25" type="judged-statement-group"/>
+    </relation>
+    <relation id="27" type="relation-group">
+        <itx-elements>
+            <item key="group_26" id="26" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="28" type="relation-group">
+        <itx-elements>
+            <item key="group_26" id="26" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <condition id="29" type="condition-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="hypothetical-condition"/>
+        </itx-elements>
+    </condition>
+</lim-elements>

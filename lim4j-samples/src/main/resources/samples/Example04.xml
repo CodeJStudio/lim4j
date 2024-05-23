@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <argument id="4">
+        <description>① The Big Bang theory is crumbling .... ② According to orthodox wisdom, the cosmos began with the Big Bang-an immense, perfectly symmetrical explosion 20 billion years ago. ③ (The problem is that) astronomers have confirmed by observation the existence of huge conglomerations of galaxies that are simply too big to have been formed in a mere 20 billion years .... ④ (Studies based on new data collected by satellite, and backed up by earlier ground surveys, show that) galaxies are clustered into vast ribbons that stretch billions of light years, ⑤ and are separated by voids hundreds of millions of light years across. ⑥ Galaxies are observed to travel at only a small fraction of the speed of light. ⑦ Mathematics shows that such large clumps of matter must have taken at least one hundred billion years to come together -- five times as long as the time since the hypothetical Big Bang.</description>
+        <sub-argument-group id="63" type="argument-group"/>
+    </argument>
+    <argument id="5">
+        <relation-group id="20" type="relation-group"/>
+        <description>④ (Studies based on new data collected by satellite, and backed up by earlier ground surveys, show that) galaxies are clustered into vast ribbons that stretch billions of light years, ⑤ and are separated by voids hundreds of millions of light years across. ⑥ Galaxies are observed to travel at only a small fraction of the speed of light. ⑦ Mathematics shows that such large clumps of matter must have taken at least one hundred billion years to come together -- five times as long as the time since the hypothetical Big Bang.</description>
+        <causality-relation id="28" type="causality-relation"/>
+        <judged-statement-group id="15" type="judged-statement-group"/>
+        <attribute-group id="18" type="attribute-group"/>
+    </argument>
+    <argument id="6">
+        <relation-group id="36" type="relation-group"/>
+        <description>③ Astronomers have confirmed by observation the existence of huge conglomerations of galaxies that are simply too big to have been formed in a mere 20 billion years .... ⑦ Mathematics shows that such large clumps of matter must have taken at least one hundred billion years to come together -- five times as long as the time since the hypothetical Big Bang.</description>
+        <causality-relation id="44" type="causality-relation"/>
+        <judged-statement-group id="31" type="judged-statement-group"/>
+        <attribute-group id="34" type="attribute-group"/>
+    </argument>
+    <argument id="7">
+        <relation-group id="52" type="relation-group"/>
+        <description>① The Big Bang theory is crumbling .... ② According to orthodox wisdom, the cosmos began with the Big Bang-an immense, perfectly symmetrical explosion 20 billion years ago. ③ (The problem is that) astronomers have confirmed by observation the existence of huge conglomerations of galaxies that are simply too big to have been formed in a mere 20 billion years .... </description>
+        <causality-relation id="60" type="causality-relation"/>
+        <judged-statement-group id="47" type="judged-statement-group"/>
+        <attribute-group id="50" type="attribute-group"/>
+    </argument>
+    <judged-statement id="8" type="proposition">
+        <description>The Big Bang theory is crumbling.</description>
+    </judged-statement>
+    <judged-statement id="9" type="proposition">
+        <description>According to orthodox wisdom, the cosmos began with the Big Bang-an immense, perfectly symmetrical explosion 20 billion years ago.</description>
+    </judged-statement>
+    <judged-statement id="10" type="proposition">
+        <description>Astronomers have confirmed by observation the existence of huge conglomerations of galaxies that are simply too big to have been formed in a mere 20 billion years.</description>
+    </judged-statement>
+    <judged-statement id="11" type="proposition">
+        <description>(Studies based on new data collected by satellite, and backed up by earlier ground surveys, show that) galaxies are clustered into vast ribbons that stretch billions of light years,</description>
+    </judged-statement>
+    <judged-statement id="12" type="proposition">
+        <description>Galaxies are separated by voids hundreds of millions of light years across.</description>
+    </judged-statement>
+    <judged-statement id="13" type="proposition">
+        <description>Galaxies are observed to travel at only a small fraction of the speed of light.</description>
+    </judged-statement>
+    <judged-statement id="14" type="proposition">
+        <description>Mathematics shows that such large clumps of matter must have taken at least one hundred billion years to come together -- five times as long as the time since the hypothetical Big Bang.</description>
+    </judged-statement>
+    <judged-statement id="15" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_13" id="13" type="proposition"/>
+            <item key="group_14" id="14" type="proposition"/>
+            <item key="group_11" id="11" type="proposition"/>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute compatible="true" key="evidence" id="16">
+        <relation-group id="21" type="relation-group"/>
+        <value-group id="17" type="generic-element-group"/>
+    </attribute>
+    <element id="17" type="generic-element-group">
+        <itx-elements>
+            <item key="group_13" id="13" type="proposition"/>
+            <item key="group_11" id="11" type="proposition"/>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+    </element>
+    <attribute id="18" type="attribute-group">
+        <itx-elements>
+            <item key="group_16" id="16" type="attribute"/>
+            <item key="group_22" id="22" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="19" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="16" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="16" type="attribute"/>
+    </relation>
+    <relation id="20" type="relation-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="affiliation-relation"/>
+            <item key="group_24" id="24" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="21" type="relation-group">
+        <itx-elements>
+            <item key="group_19" id="19" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="22">
+        <relation-group id="25" type="relation-group"/>
+        <value id="14" type="proposition"/>
+        <value-group id="23" type="generic-element-group"/>
+    </attribute>
+    <element id="23" type="generic-element-group">
+        <itx-elements>
+            <item key="group_14" id="14" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="24" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="22" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="22" type="attribute"/>
+    </relation>
+    <relation id="25" type="relation-group">
+        <itx-elements>
+            <item key="group_24" id="24" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="26" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_13" id="13" type="proposition"/>
+            <item key="group_11" id="11" type="proposition"/>
+            <item key="group_12" id="12" type="proposition"/>
+        </itx-elements>
+        <relation-group id="29" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="27" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_14" id="14" type="proposition"/>
+        </itx-elements>
+        <relation-group id="30" type="relation-group"/>
+    </judged-statement>
+    <relation id="28" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="27" type="judged-statement-group"/>
+            <item key="cause" id="26" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="26" type="judged-statement-group"/>
+        <secondary id="27" type="judged-statement-group"/>
+    </relation>
+    <relation id="29" type="relation-group">
+        <itx-elements>
+            <item key="group_28" id="28" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="30" type="relation-group">
+        <itx-elements>
+            <item key="group_28" id="28" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="31" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="proposition"/>
+            <item key="group_14" id="14" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute key="evidence" id="32">
+        <relation-group id="37" type="relation-group"/>
+        <value id="14" type="proposition"/>
+        <value-group id="33" type="generic-element-group"/>
+    </attribute>
+    <element id="33" type="generic-element-group">
+        <itx-elements>
+            <item key="group_14" id="14" type="proposition"/>
+        </itx-elements>
+    </element>
+    <attribute id="34" type="attribute-group">
+        <itx-elements>
+            <item key="group_32" id="32" type="attribute"/>
+            <item key="group_38" id="38" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="35" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="32" type="attribute"/>
+            <item key="master" id="6" type="argument"/>
+        </itx-elements>
+        <primary id="6" type="argument"/>
+        <secondary id="32" type="attribute"/>
+    </relation>
+    <relation id="36" type="relation-group">
+        <itx-elements>
+            <item key="group_40" id="40" type="affiliation-relation"/>
+            <item key="group_35" id="35" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="37" type="relation-group">
+        <itx-elements>
+            <item key="group_35" id="35" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="38">
+        <relation-group id="41" type="relation-group"/>
+        <value id="10" type="proposition"/>
+        <value-group id="39" type="generic-element-group"/>
+    </attribute>
+    <element id="39" type="generic-element-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="40" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="38" type="attribute"/>
+            <item key="master" id="6" type="argument"/>
+        </itx-elements>
+        <primary id="6" type="argument"/>
+        <secondary id="38" type="attribute"/>
+    </relation>
+    <relation id="41" type="relation-group">
+        <itx-elements>
+            <item key="group_40" id="40" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="42" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_14" id="14" type="proposition"/>
+        </itx-elements>
+        <relation-group id="45" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="43" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="proposition"/>
+        </itx-elements>
+        <relation-group id="46" type="relation-group"/>
+    </judged-statement>
+    <relation id="44" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="43" type="judged-statement-group"/>
+            <item key="cause" id="42" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="42" type="judged-statement-group"/>
+        <secondary id="43" type="judged-statement-group"/>
+    </relation>
+    <relation id="45" type="relation-group">
+        <itx-elements>
+            <item key="group_44" id="44" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="46" type="relation-group">
+        <itx-elements>
+            <item key="group_44" id="44" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="47" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="proposition"/>
+            <item key="group_9" id="9" type="proposition"/>
+            <item key="group_8" id="8" type="proposition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute compatible="true" key="evidence" id="48">
+        <relation-group id="53" type="relation-group"/>
+        <value-group id="49" type="generic-element-group"/>
+    </attribute>
+    <element id="49" type="generic-element-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="proposition"/>
+            <item key="group_9" id="9" type="proposition"/>
+        </itx-elements>
+    </element>
+    <attribute id="50" type="attribute-group">
+        <itx-elements>
+            <item key="group_54" id="54" type="attribute"/>
+            <item key="group_48" id="48" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="51" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="48" type="attribute"/>
+            <item key="master" id="7" type="argument"/>
+        </itx-elements>
+        <primary id="7" type="argument"/>
+        <secondary id="48" type="attribute"/>
+    </relation>
+    <relation id="52" type="relation-group">
+        <itx-elements>
+            <item key="group_51" id="51" type="affiliation-relation"/>
+            <item key="group_56" id="56" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="53" type="relation-group">
+        <itx-elements>
+            <item key="group_51" id="51" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="54">
+        <relation-group id="57" type="relation-group"/>
+        <value id="8" type="proposition"/>
+        <value-group id="55" type="generic-element-group"/>
+    </attribute>
+    <element id="55" type="generic-element-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="56" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="54" type="attribute"/>
+            <item key="master" id="7" type="argument"/>
+        </itx-elements>
+        <primary id="7" type="argument"/>
+        <secondary id="54" type="attribute"/>
+    </relation>
+    <relation id="57" type="relation-group">
+        <itx-elements>
+            <item key="group_56" id="56" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="58" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="proposition"/>
+            <item key="group_9" id="9" type="proposition"/>
+        </itx-elements>
+        <relation-group id="61" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="59" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+        </itx-elements>
+        <relation-group id="62" type="relation-group"/>
+    </judged-statement>
+    <relation id="60" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="59" type="judged-statement-group"/>
+            <item key="cause" id="58" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="58" type="judged-statement-group"/>
+        <secondary id="59" type="judged-statement-group"/>
+    </relation>
+    <relation id="61" type="relation-group">
+        <itx-elements>
+            <item key="group_60" id="60" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="62" type="relation-group">
+        <itx-elements>
+            <item key="group_60" id="60" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <argument id="63" type="argument-group">
+        <itx-elements>
+            <item key="group_5" id="5" type="argument"/>
+            <item key="group_7" id="7" type="argument"/>
+            <item key="group_6" id="6" type="argument"/>
+        </itx-elements>
+    </argument>
+</lim-elements>

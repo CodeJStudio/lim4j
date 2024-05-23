@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lim-elements version="1.0">
+    <information-section id="4">
+        <description>How should we define the word 'planet'? ① Planets are simply bodies in orbit around the sun and that there are nine planets in the solar system -- of which the smallest is Pluto, made of unusual stuff, with an unusual orbit, and most distant from the sun. ② But other bodies, larger than Pluto and oddly shaped, have been recently discovered orbiting the sun. Are they also planets? Why not? ③ Older definitions had become conceptually inadequate. ④ An intense controversy within the International Astronomical Union (IAU), still not fully resolved, has recently resulted in a new definition of 'planet' .... ⑤ Needed were definitions that would accommodate new discoveries as well as old, while maintaining a consistent and fully intelligible account of the entire system. ⑥ Such definitions were adopted by the IAU in 2006. A planet is a celestial body that, within the Solar System, (1) is in orbit around the Sun; and (2) has sufficient mass for its self-gravity to overcome rigid body forces so that it assumes a hydrostatic equilibrium (nearly round) shape; and (3) has cleared the neighborhood around its orbit. In a system other than our solar system, the new definition requires that the body (1) be in orbit around a star or stellar remnant; and (2) have a mass below the limiting mass for thermonuclear fusion of deuterium; and (3) be above the minimum mass/size requirement for planetary status in the solar system.</description>
+        <sub-information-element-group id="45" type="information-element-group"/>
+    </information-section>
+    <argument id="5">
+        <relation-group id="18" type="relation-group"/>
+        <description>① Planets are simply bodies in orbit around the sun and that there are nine planets in the solar system -- of which the smallest is Pluto, made of unusual stuff, with an unusual orbit, and most distant from the sun. ② But other bodies, larger than Pluto and oddly shaped, have been recently discovered orbiting the sun.... ③ Older definitions had become conceptually inadequate.</description>
+        <causality-relation id="26" type="causality-relation"/>
+        <judged-statement-group id="13" type="judged-statement-group"/>
+        <attribute-group id="16" type="attribute-group"/>
+    </argument>
+    <argument id="6">
+        <relation-group id="34" type="relation-group"/>
+        <description>③ Older definitions had become conceptually inadequate.... ⑤ Needed were definitions that would accommodate new discoveries as well as old, while maintaining a consistent and fully intelligible account of the entire system. ⑥ Such definitions were adopted by the IAU in 2006. A planet is a celestial body that, within the Solar System, (1) is in orbit around the Sun; and (2) has sufficient mass for its self-gravity to overcome rigid body forces so that it assumes a hydrostatic equilibrium (nearly round) shape; and (3) has cleared the neighborhood around its orbit. In a system other than our solar system, the new definition requires that the body (1) be in orbit around a star or stellar remnant; and (2) have a mass below the limiting mass for thermonuclear fusion of deuterium; and (3) be above the minimum mass/size requirement for planetary status in the solar system.</description>
+        <causality-relation id="42" type="causality-relation"/>
+        <judged-statement-group id="29" type="judged-statement-group"/>
+        <attribute-group id="32" type="attribute-group"/>
+    </argument>
+    <judged-statement id="7" type="definition">
+        <description>Planets are simply bodies in orbit around the sun and that there are nine planets in the solar system -- of which the smallest is Pluto, made of unusual stuff, with an unusual orbit, and most distant from the sun.</description>
+    </judged-statement>
+    <judged-statement id="8" type="proposition">
+        <description>Other bodies, larger than Pluto and oddly shaped, have been recently discovered orbiting the sun.</description>
+    </judged-statement>
+    <judged-statement id="9" type="proposition">
+        <description>Older definitions(①) had become conceptually inadequate.</description>
+    </judged-statement>
+    <judged-statement id="10" type="narration">
+        <description>An intense controversy within the International Astronomical Union (IAU), still not fully resolved, has recently resulted in a new definition of 'planet'.</description>
+    </judged-statement>
+    <judged-statement id="11" type="proposition">
+        <description>Needed were definitions that would accommodate new discoveries as well as old, while maintaining a consistent and fully intelligible account of the entire system.</description>
+    </judged-statement>
+    <judged-statement id="12" type="definition">
+        <description>Such definitions were adopted by the IAU in 2006. A planet is a celestial body that, within the Solar System, (1) is in orbit around the Sun; and (2) has sufficient mass for its self-gravity to overcome rigid body forces so that it assumes a hydrostatic equilibrium (nearly round) shape; and (3) has cleared the neighborhood around its orbit. In a system other than our solar system, the new definition requires that the body (1) be in orbit around a star or stellar remnant; and (2) have a mass below the limiting mass for thermonuclear fusion of deuterium; and (3) be above the minimum mass/size requirement for planetary status in the solar system.</description>
+    </judged-statement>
+    <judged-statement id="13" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+            <item key="group_8" id="8" type="proposition"/>
+            <item key="group_7" id="7" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute compatible="true" key="evidence" id="14">
+        <relation-group id="19" type="relation-group"/>
+        <value-group id="15" type="generic-element-group"/>
+    </attribute>
+    <element id="15" type="generic-element-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+            <item key="group_7" id="7" type="definition"/>
+        </itx-elements>
+    </element>
+    <attribute id="16" type="attribute-group">
+        <itx-elements>
+            <item key="group_20" id="20" type="attribute"/>
+            <item key="group_14" id="14" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="17" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="14" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="14" type="attribute"/>
+    </relation>
+    <relation id="18" type="relation-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="affiliation-relation"/>
+            <item key="group_22" id="22" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="19" type="relation-group">
+        <itx-elements>
+            <item key="group_17" id="17" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="20">
+        <relation-group id="23" type="relation-group"/>
+        <value id="9" type="proposition"/>
+        <value-group id="21" type="generic-element-group"/>
+    </attribute>
+    <element id="21" type="generic-element-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+        </itx-elements>
+    </element>
+    <relation id="22" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="20" type="attribute"/>
+            <item key="master" id="5" type="argument"/>
+        </itx-elements>
+        <primary id="5" type="argument"/>
+        <secondary id="20" type="attribute"/>
+    </relation>
+    <relation id="23" type="relation-group">
+        <itx-elements>
+            <item key="group_22" id="22" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="24" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_8" id="8" type="proposition"/>
+            <item key="group_7" id="7" type="definition"/>
+        </itx-elements>
+        <relation-group id="27" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="25" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+        </itx-elements>
+        <relation-group id="28" type="relation-group"/>
+    </judged-statement>
+    <relation id="26" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="25" type="judged-statement-group"/>
+            <item key="cause" id="24" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="24" type="judged-statement-group"/>
+        <secondary id="25" type="judged-statement-group"/>
+    </relation>
+    <relation id="27" type="relation-group">
+        <itx-elements>
+            <item key="group_26" id="26" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="28" type="relation-group">
+        <itx-elements>
+            <item key="group_26" id="26" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="29" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+            <item key="group_11" id="11" type="proposition"/>
+            <item key="group_12" id="12" type="definition"/>
+        </itx-elements>
+    </judged-statement>
+    <attribute compatible="true" key="evidence" id="30">
+        <relation-group id="35" type="relation-group"/>
+        <value-group id="31" type="generic-element-group"/>
+    </attribute>
+    <element id="31" type="generic-element-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+            <item key="group_11" id="11" type="proposition"/>
+        </itx-elements>
+    </element>
+    <attribute id="32" type="attribute-group">
+        <itx-elements>
+            <item key="group_30" id="30" type="attribute"/>
+            <item key="group_36" id="36" type="attribute"/>
+        </itx-elements>
+    </attribute>
+    <relation id="33" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="30" type="attribute"/>
+            <item key="master" id="6" type="argument"/>
+        </itx-elements>
+        <primary id="6" type="argument"/>
+        <secondary id="30" type="attribute"/>
+    </relation>
+    <relation id="34" type="relation-group">
+        <itx-elements>
+            <item key="group_38" id="38" type="affiliation-relation"/>
+            <item key="group_33" id="33" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="35" type="relation-group">
+        <itx-elements>
+            <item key="group_33" id="33" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <attribute key="conclusion" id="36">
+        <relation-group id="39" type="relation-group"/>
+        <value id="12" type="definition"/>
+        <value-group id="37" type="generic-element-group"/>
+    </attribute>
+    <element id="37" type="generic-element-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="definition"/>
+        </itx-elements>
+    </element>
+    <relation id="38" type="affiliation-relation">
+        <itx-elements>
+            <item key="slave" id="36" type="attribute"/>
+            <item key="master" id="6" type="argument"/>
+        </itx-elements>
+        <primary id="6" type="argument"/>
+        <secondary id="36" type="attribute"/>
+    </relation>
+    <relation id="39" type="relation-group">
+        <itx-elements>
+            <item key="group_38" id="38" type="affiliation-relation"/>
+        </itx-elements>
+    </relation>
+    <judged-statement id="40" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_9" id="9" type="proposition"/>
+            <item key="group_11" id="11" type="proposition"/>
+        </itx-elements>
+        <relation-group id="43" type="relation-group"/>
+    </judged-statement>
+    <judged-statement id="41" type="judged-statement-group">
+        <itx-elements>
+            <item key="group_12" id="12" type="definition"/>
+        </itx-elements>
+        <relation-group id="44" type="relation-group"/>
+    </judged-statement>
+    <relation id="42" type="causality-relation">
+        <itx-elements>
+            <item key="effect" id="41" type="judged-statement-group"/>
+            <item key="cause" id="40" type="judged-statement-group"/>
+        </itx-elements>
+        <primary id="40" type="judged-statement-group"/>
+        <secondary id="41" type="judged-statement-group"/>
+    </relation>
+    <relation id="43" type="relation-group">
+        <itx-elements>
+            <item key="group_42" id="42" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <relation id="44" type="relation-group">
+        <itx-elements>
+            <item key="group_42" id="42" type="causality-relation"/>
+        </itx-elements>
+    </relation>
+    <information-element id="45" type="information-element-group">
+        <itx-elements>
+            <item key="group_10" id="10" type="narration"/>
+            <item key="group_9" id="9" type="proposition"/>
+            <item key="group_8" id="8" type="proposition"/>
+            <item key="group_5" id="5" type="argument"/>
+            <item key="group_7" id="7" type="definition"/>
+            <item key="group_6" id="6" type="argument"/>
+            <item key="group_11" id="11" type="proposition"/>
+            <item key="group_12" id="12" type="definition"/>
+        </itx-elements>
+    </information-element>
+</lim-elements>
